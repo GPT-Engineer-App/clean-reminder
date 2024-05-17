@@ -29,7 +29,7 @@ const Index = () => {
         <Text fontSize="2xl">Todo App</Text>
         <HStack width="100%">
           <Input placeholder="Enter a new task" value={task} onChange={(e) => setTask(e.target.value)} />
-          <Button onClick={addTask} colorScheme="teal">
+          <Button onClick={addTask} bg="yellow.400" color="black">
             Add Task
           </Button>
         </HStack>
